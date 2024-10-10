@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: white;
+}
+.head{
+    background-image: url('/assets/Hero-bg.png');
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 100px 250px;
+}
+.head h1{
+    font-size:48px;
+    font: x-large;
+}
+.head p{
+    color: #0D1321;
+    font-size: 16px;
+    padding-inline: 450px;
+}
