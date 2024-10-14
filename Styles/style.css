@@ -2,16 +2,22 @@
     margin: 0;
     padding: 0;
 }
-.navbar{
+.navbar, .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 100px;
     background-color: white;
 }
+.navbar h1{
+    color: #0D1321;
+    font-size:28px;
+    font: x-large;
+}
+
 .head{
     background-image: url('/assets/Hero-bg.png');
-    height: 550px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -27,30 +33,68 @@
     font-size: 16px;
     padding-inline: 450px;
 }
+.contBtn{
+    padding:15px;
+    border: 1px solid rgb(62, 54, 62);
+    border-radius: 10px;
+    background-color: #0D1321;
+    font-size:20px;
+    font: large;
+    color: #ffffff;
+    cursor: pointer;
+}
 .top {
     display: flex;
     flex-direction: column;
     gap: 50px;
     text-align: center;
     padding: 50px 50px;
-    background-color: #d3e3ff;
-    margin: 50px 150px;
+    background-color: #f3f8fc;
+    margin: 50px 200px;
     border-radius: 16px;
+}
+.aboutWeb{
+    width: 60%;
+    margin: auto;
+}
+.aboutWeb h1, .inspiration h1, .crntTarget h1, .nextTarget h1{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 15px;
 }
 .top-child{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align: start;
     gap: 50px;
-    margin: 0;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 70%;
+    padding: 30px;
+}
+.top-child h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.top-child p{
+    margin-bottom: 20px;
+    width: 80%;
 }
 .inspiration, .crntTarget, .nextTarget {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     text-align: center;
     padding: 50px 50px;
     margin: 50px 150px;
+}
+.inspiration p, .crntP, .nextP{
+    margin: auto;
+    width: 70%;
 }
 .video{
     border: 1px solid violet;
@@ -68,10 +112,31 @@ iframe{
     gap:30px;
 }
 .itemTarget div{
-    background-color: #d3e3ff;
     border-radius: 5px;
-    padding: 20px;
+    padding:50px;
     text-align: start;
+}
+.item1{
+    background-color: #f3f8fc;
+}
+.item2{
+    background-color: #f9fcff;
+}
+.item3{
+    background-color: #e6eaed;
+}
+.itemTarget div h1, .nextTargetItem h1{
+    color: #0D1321;
+    font-size:24px;
+    font: x-large;
+    margin: 10px 0px;
+}
+.learn{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+    text-decoration: underline;
+    margin-top: 15px;
 }
 .nextTargetItem{
     text-align: start;
@@ -80,3 +145,52 @@ iframe{
     margin: 15px 0px;
     padding: 20px;
 }
+.lastSection{
+    background-image: url('../assets/handshake.jpg');
+    margin: 50px 200px;
+    text-align:center;
+    border-radius: 15px;
+    position: relative;
+    height: 300px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lastSection h1{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+}
+.lastSection p{
+    color:#FFFFFF;
+    width: 40%;
+    margin: 10px auto;
+}
+.lastSection div{
+    padding: 80px;
+}
+.footer{
+    margin: 0px 100px;
+}
+.input{
+    padding: 15px;
+    width: 30%;
+}
+.btn{
+    padding:15px;
+    border: 1px solid rgb(62, 54, 62);
+    border-radius: 3px;
+    background-color: aliceblue;
+    font-size:20px;
+    font: large;
+    color: #0D1321;
+    cursor: pointer;
+}
+.footer a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 32px;
+    
+}
+
+
