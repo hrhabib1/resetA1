@@ -16,7 +16,7 @@
 }
 
 .head{
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -144,6 +144,10 @@ iframe{
     border-radius: 10px;
     margin: 15px 0px;
     padding: 20px;
+}
+.nextTargetItem p{
+    width: 95%;
+    margin-bottom: 10px;
 }
 .lastSection{
     background-image: url('../assets/handshake.jpg');
