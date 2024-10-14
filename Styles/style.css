@@ -44,7 +44,7 @@
     gap: 50px;
     margin: 0;
 }
-.inspiration, .crntTarget {
+.inspiration, .crntTarget, .nextTarget {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -62,7 +62,7 @@ iframe{
     height: 550px;
     border-radius: 10px;
 }
-.itemTarget{
+.itemTarget, .nextTargetItem{
     display: flex;
     flex-direction: row;
     gap:30px;
@@ -72,4 +72,11 @@ iframe{
     border-radius: 5px;
     padding: 20px;
     text-align: start;
+}
+.nextTargetItem{
+    text-align: start;
+    border: 1px solid violet;
+    border-radius: 10px;
+    margin: 15px 0px;
+    padding: 20px;
 }
