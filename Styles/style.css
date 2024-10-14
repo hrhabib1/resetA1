@@ -44,3 +44,32 @@
     gap: 50px;
     margin: 0;
 }
+.inspiration, .crntTarget {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    padding: 50px 50px;
+    margin: 50px 150px;
+}
+.video{
+    border: 1px solid violet;
+    border-radius: 10px;
+    padding: 30px;
+}
+iframe{
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+}
+.itemTarget{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.itemTarget div{
+    background-color: #d3e3ff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: start;
+}
